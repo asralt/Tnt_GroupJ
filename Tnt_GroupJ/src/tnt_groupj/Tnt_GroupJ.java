@@ -75,6 +75,18 @@ public class Tnt_GroupJ {
     System.out.println("The result of this multiply is:" + (number1*number2));
     //This is the code that makes the multiplication
    }
+ static void AsraltMethod(){
+     int age;
+     Scanner keyboard = new Scanner (System.in);
+     System.out.println("How old areyou?");
+     age = keyboard.nextInt();
+     if (age<18)
+     {
+         System.out.println("Too young to enter the concert!!!");
+     }else{
+         System.out.println("You may enter the concert!!!");
+     }
+ }
 
    
       
